@@ -1,0 +1,37 @@
+// ========================================
+// Responsive Utilities
+// ========================================
+@media (max-width: #{$breakpoint-mobile - 1px}) {
+  .hero {
+    padding: $spacing-lg $spacing-sm;
+
+    &__description {
+      font-size: 0.9375rem;
+    }
+  }
+
+  .btn {
+    min-width: 100%;
+    max-width: 320px;
+  }
+
+  .features {
+    padding: $spacing-lg $spacing-sm;
+
+    &__item {
+      padding: $spacing-lg $spacing-sm;
+    }
+  }
+
+  .testimonials {
+    padding: $spacing-lg $spacing-sm;
+  }
+
+  .content-section {
+    padding: $spacing-lg $spacing-sm;
+  }
+
+  .use-cases {
+    padding: $spacing-lg $spacing-sm;
+  }
+}

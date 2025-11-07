@@ -1,0 +1,24 @@
+{
+  "name": "wilson/landing-theme",
+  "description": "Modern WordPress landing page theme",
+  "type": "wordpress-theme",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Wilson Mbuthia",
+      "email": "wilsonkabatha@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "scssphp/scssphp": "^1.12"
+  },
+  "autoload": {
+    "psr-4": {
+      "Wilson\\Theme\\": "inc/"
+    }
+  },
+  "config": {
+    "vendor-dir": "inc/scssphp"
+  }
+}

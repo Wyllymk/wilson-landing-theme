@@ -1,0 +1,36 @@
+# Node modules
+node_modules/
+package-lock.json
+
+# Composer
+/inc/scssphp/
+composer.lock
+
+# Compiled assets (optional - comment out if you want to commit compiled files)
+# assets/dist/*.css
+# assets/dist/*.css.map
+# assets/dist/*.js
+# assets/dist/*.js.map
+
+# OS files
+.DS_Store
+Thumbs.db
+._*
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Log files
+*.log
+npm-debug.log*
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# WordPress specific
+wp-config-local.php
